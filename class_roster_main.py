@@ -82,6 +82,7 @@ def sign_in(username, password):
 def get_user_credentials():
     username = input("Please enter your ASU ID")
     password = input("Please enter your password")
+    sign_in(username, password)
 
 
 if __name__ == '__main__':
